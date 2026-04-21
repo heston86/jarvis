@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.js.map
+
+# Environment
+.env
+.env.local
+
+# Sensitive data
+credentials/
+data/
+
+# Temp files
+tmp/
+*.wav
+*.aiff
+*.mp3
+
+# Voice models (download separately)
+assets/voices/*.onnx
+assets/voices/*.onnx.json
+
+# Large model files (download separately)
+assets/models/*.bin
+models/*.onnx
+models/*.wasm
+models/*.mjs
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Electron build
+release/
+out/
+
+# TypeScript
+*.tsbuildinfo
